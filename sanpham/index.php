@@ -14,7 +14,7 @@
 			$tenHSX = $value['tenHang'];
 		}
 	} else {
-		$maHSX = 'APP';
+		$maHSX = 'MH1';
 		$sql_hsx = "select * from dongsanpham where maHang='$maHSX'";
 		$stmt = $conn->prepare($sql_hsx);
 		$stmt->execute();
